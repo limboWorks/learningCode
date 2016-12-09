@@ -11,7 +11,7 @@ import java.util.Map;
 import ch.fhnw.oop2.DepartureBoard.*;
 
 /**
- * Created by VN7-571G-78X7 on 16.05.2016.
+ * Created by LORENZO MANN
  */
 public class ActivTableCell extends TableCell<Result, String> {
     private static final Map<String, Image> Aktiv = new HashMap<>();

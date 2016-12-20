@@ -1,4 +1,4 @@
-ID;RANK;BUILDING;CITY;COUNTRY;HEIGHT_M;HEIGHT_FT;FLOORS;BUILD;ARCHITECT;ARCHITECTUTAL_STYLE;COST;MATERIAL;LONGITUDE;LATITUDE;IMAGE_URL
+-ID;RANK;BUILDING;CITY;COUNTRY;HEIGHT_M;HEIGHT_FT;FLOORS;BUILD;ARCHITECT;ARCHITECTUTAL_STYLE;COST;MATERIAL;LONGITUDE;LATITUDE;IMAGE_URL
 1;1;Burj Khalifa;Dubai;UAE;830.0;2723.0971336364746;163;2010;Adrian Smith at SOM;Neo-futurism;1.5;glass, steel, aluminum, reinforced concrete;25.1971;55.2741;https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Burj_Khalifa.jpg/240px-Burj_Khalifa.jpg
 2;2;Shanghai Tower;Shanghai;China;632.0;2073.4908294677734;128;2015;Jun Xia (Gensler);;2.4;;31.2355;121.501;https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Shanghai_Tower_2015.jpg/480px-Shanghai_Tower_2015.jpg
 3;3;Abraj Al-Bait Clock Tower;Mecca;Saudi Arabia;601.0;1971.7847919464111;120;2012;Dar Al-Handasah Architects;;15.0;steel/concrete composite construction;21.4189;39.8264;https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Abraj-al-Bait-Towers.JPG/550px-Abraj-al-Bait-Towers.JPG

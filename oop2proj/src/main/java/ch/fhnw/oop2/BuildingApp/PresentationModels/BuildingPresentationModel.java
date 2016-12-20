@@ -18,21 +18,20 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.collections.transformation.FilteredList;
 
-/**
- * @author Dieter Holz
- */
 public class BuildingPresentationModel {
-	private static final String FILE_NAME = "buildings.csv";
-
+	private static final String FILE_NAME = "/buildings.csv";
 	private static final String SEPARATOR = ";";
 
-	private final StringProperty applicationTitle = new SimpleStringProperty("Nationalratswahlen 2007");
+	private final StringProperty applicationTitle = new SimpleStringProperty("buildings.csv");
 
-	private final ObservableList<BuildingClass> resulate = FXCollections.observableArrayList();
+	private final ObservableList<BuildingClass> resulates = FXCollections.observableArrayList();
+
+	private final FilteredList<BuildingClass> filteredList = new FilteredList<> (resulates, resulate -> true);
 
 	public BuildingPresentationModel() {
-		resulate.addAll(readFromFile());
+		resulates.addAll(readFromFile());
 	}
 
 	/*
@@ -55,9 +54,9 @@ public class BuildingPresentationModel {
 */
 	private List<BuildingClass> readFromFile() {
 		try (Stream<String> stream = getStreamOfLines(FILE_NAME, true)) {
-			return stream.skip(1)                              // erste Zeile ist die Headerzeile; ueberspringen
-			             .map(s -> new BuildingClass(s.split(SEPARATOR))) // aus jeder Zeile ein Objekt machen
-			             .collect(Collectors.toList());        // alles aufsammeln
+			return stream.skip(1)
+			             .map(s -> new BuildingClass(s.split(SEPARATOR)))
+			             .collect(Collectors.toList());
 		}
 	}
 
@@ -91,8 +90,11 @@ public class BuildingPresentationModel {
 		return applicationTitle;
 	}
 
-	public ObservableList<BuildingClass> getResulate() {
-		return resulate;
+	public ObservableList<BuildingClass> getResulates() {
+		return resulates;
 	}
 
+	public FilteredList<BuildingClass> getFilteredList() {
+		return filteredList;
+	}
 }

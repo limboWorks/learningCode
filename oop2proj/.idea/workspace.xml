@@ -41,25 +41,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="BuildingStart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingStart.java">
+      <file leaf-file-name="BuildingPresentationModel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingPresentationModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="1248">
+              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuildingUI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#getApplicationTitle#0;class#BuildingPresentationModel#0" expanded="false" />
+                <element signature="method#applicationTitleProperty#0;class#BuildingPresentationModel#0" expanded="false" />
+                <element signature="method#getResults#0;class#BuildingPresentationModel#0" expanded="false" />
+                <element signature="method#getFilteredList#0;class#BuildingPresentationModel#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -382,6 +373,12 @@
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/BuildingApp/BuildingPresentationModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/BuildingApp/ViewMixin.java" />
         <option value="$PROJECT_DIR$/src/main/java/BuildingApp/ViewMixin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BuildingApp/SplitPaneUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BuildingApp/UI_left.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BuildingApp/Starter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BuildingApp/BuildingUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BuildingApp/BuildingClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BuildingApp/BuildingPresentationModel.java" />
       </list>
     </option>
   </component>
@@ -392,10 +389,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="41" />
-    <option name="width" value="2418" />
-    <option name="height" value="1318" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
@@ -412,7 +409,56 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop2proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop2proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop2proj_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop2proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop2proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop2proj_main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop2proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop2proj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleGroupNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop2proj_main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BuildingApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -555,56 +601,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oop2proj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oop2proj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oop2proj_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oop2proj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oop2proj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oop2proj_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oop2proj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oop2proj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oop2proj_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BuildingApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -619,18 +616,18 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/fhnw/oop2/09 - Listen, Tabellen, Files/code/module09/nationalratswahlen" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\git\limbo-works\oop2proj\src\test\resources" />
-      <recent name="C:\git\limbo-works\oop2proj\src\main\resources\ch\fhnw\oop2\BuildingApp\PresentationModels" />
-      <recent name="C:\git\limbo-works\oop2proj\src\main\java\ch\fhnw\oop2\BuildingApp\PresentationModels" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\git\limbo-works\oop2proj\src\main\resources" />
       <recent name="C:\git\limbo-works\oop2proj\src\main\java\ch\fhnw\oop2\BuildingApp\Views" />
       <recent name="C:\git\limbo-works\oop2proj\src\main\java\ch\fhnw\oop2\BuildingApp\PresentationModels" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\limbo-works\oop2proj\src\test\resources" />
+      <recent name="C:\git\limbo-works\oop2proj\src\main\resources\ch\fhnw\oop2\BuildingApp\PresentationModels" />
+      <recent name="C:\git\limbo-works\oop2proj\src\main\java\ch\fhnw\oop2\BuildingApp\PresentationModels" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.BuildingStart (1)">
+  <component name="RunManager" selected="Application.Starter">
     <configuration default="false" name="BuildingStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -651,14 +648,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="BuildingStart (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="BuildingApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="BuildingApp.BuildingStart" />
+      <option name="MAIN_CLASS_NAME" value="BuildingApp.Starter" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1053,11 +1050,11 @@
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.BuildingStart" />
-      <item index="1" class="java.lang.String" itemvalue="Application.BuildingStart (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Starter" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.BuildingStart (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Starter" />
         <item index="1" class="java.lang.String" itemvalue="Application.BuildingStart" />
       </list>
     </recent_temporary>
@@ -1087,11 +1084,18 @@
       <workItem from="1482254228640" duration="13009000" />
       <workItem from="1482271569578" duration="2054000" />
       <workItem from="1482279387632" duration="407000" />
+      <workItem from="1482280393380" duration="1506000" />
+      <workItem from="1482339119688" duration="28000" />
+      <workItem from="1482339266124" duration="5000" />
+      <workItem from="1482339624878" duration="1156000" />
+      <workItem from="1482342216447" duration="689000" />
+      <workItem from="1482347089963" duration="23000" />
+      <workItem from="1482348376703" duration="169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35253000" />
+    <option name="totallyTimeSpent" value="38829000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1103,39 +1107,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="41" width="2418" height="1318" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33223414" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="853" y="142" width="848" height="834" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958335" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2109375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39901072" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26984128" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="853" y="142" width="848" height="834" />
+      <window_info id="Find" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958335" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1151,7 +1155,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingClass.java</url>
+          <line>200</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingClass.java</url>
+          <line>173</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingPresentationModel.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1164,25 +1188,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/NavigationTop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/UI_top.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/BuildingApp/Views/BorderPaneCenterUI.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2668">
           <caret line="92" column="47" lean-forward="false" selection-start-line="92" selection-start-column="47" selection-end-line="92" selection-end-column="47" />
-          <folding />
+          <folding>
+            <element signature="method#equals#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#hashCode#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#infoAsLine#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingIDProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingRankProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#cityNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#countryNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightMeterProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightFeetProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingFloorsProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingBuildProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectutalStyleProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingCostProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingMaterialProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLongitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLatitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingImageURLProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1190,16 +1258,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="method#getApplicationTitle#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#applicationTitleProperty#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#getResults#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#getFilteredList#0;class#BuildingPresentationModel#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingStart.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/Starter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1215,25 +1288,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/NavigationTop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/UI_top.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/BuildingApp/Views/BorderPaneCenterUI.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#equals#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#hashCode#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#infoAsLine#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingIDProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingRankProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#cityNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#countryNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightMeterProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightFeetProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingFloorsProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingBuildProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectutalStyleProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingCostProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingMaterialProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLongitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLatitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingImageURLProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1241,16 +1358,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="957">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#getApplicationTitle#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#applicationTitleProperty#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#getResults#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#getFilteredList#0;class#BuildingPresentationModel#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingStart.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/Starter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1259,7 +1381,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#equals#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#hashCode#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#infoAsLine#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingIDProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingRankProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#cityNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#countryNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightMeterProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightFeetProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingFloorsProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingBuildProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectutalStyleProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingCostProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingMaterialProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLongitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLatitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingImageURLProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1267,16 +1441,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#getApplicationTitle#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#applicationTitleProperty#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#getResults#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#getFilteredList#0;class#BuildingPresentationModel#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingStart.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/Starter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1285,7 +1464,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#equals#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#hashCode#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#infoAsLine#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingIDProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingRankProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#cityNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#countryNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightMeterProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightFeetProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingFloorsProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingBuildProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectutalStyleProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingCostProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingMaterialProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLongitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLatitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingImageURLProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1293,16 +1524,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#getApplicationTitle#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#applicationTitleProperty#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#getResults#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#getFilteredList#0;class#BuildingPresentationModel#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingStart.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/Starter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1311,7 +1547,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#equals#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#hashCode#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#infoAsLine#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingIDProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingRankProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#cityNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#countryNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightMeterProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightFeetProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingFloorsProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingBuildProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectutalStyleProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingCostProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingMaterialProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLongitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLatitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingImageURLProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1319,7 +1607,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#equals#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#hashCode#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#infoAsLine#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingIDProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingRankProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#cityNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#countryNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightMeterProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightFeetProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingFloorsProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingBuildProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectutalStyleProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingCostProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingMaterialProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLongitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLatitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingImageURLProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1327,7 +1667,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2728">
           <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#getApplicationTitle#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#applicationTitleProperty#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#getResults#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#getFilteredList#0;class#BuildingPresentationModel#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1335,7 +1680,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#equals#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#hashCode#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#infoAsLine#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingIDProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingRankProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#cityNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#countryNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightMeterProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightFeetProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingFloorsProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingBuildProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectutalStyleProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingCostProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingMaterialProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLongitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLatitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingImageURLProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1343,7 +1740,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1760">
           <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#getApplicationTitle#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#applicationTitleProperty#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#getResults#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#getFilteredList#0;class#BuildingPresentationModel#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1351,7 +1753,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
           <caret line="41" column="53" lean-forward="false" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
-          <folding />
+          <folding>
+            <element signature="method#equals#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#hashCode#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#infoAsLine#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingIDProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingRankProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#cityNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#countryNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightMeterProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightFeetProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingFloorsProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingBuildProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectutalStyleProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingCostProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingMaterialProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLongitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLatitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingImageURLProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1359,19 +1813,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1936">
           <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#getApplicationTitle#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#applicationTitleProperty#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#getResults#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#getFilteredList#0;class#BuildingPresentationModel#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/BuildingApp/Views/TopNavigation.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/BuildingApp/PresentationModels/countries.csv" />
-    <entry file="file://$PROJECT_DIR$/build/classes/main/ch/fhnw/oop2/BuildingApp/BuildingStart.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/classes/main/ch/fhnw/oop2/BuildingApp/BuildingStart.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/BuildingApp/Views/GridPaneExample.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1441,7 +1894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="25" column="173" lean-forward="false" selection-start-line="25" selection-start-column="173" selection-end-line="25" selection-end-column="173" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1449,59 +1901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingPresentationModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/Editor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/NavigationTop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/SplitPaneUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/ViewMixin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1509,26 +1908,119 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/ViewMixin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/UI_left.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingStart.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/UI_right.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="-1992">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/UI_top.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/Starter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        <state relative-caret-position="552">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#equals#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#hashCode#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#infoAsLine#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingIDProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingID#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingRankProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingRank#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#cityNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCityName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#countryNameProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setCountryName#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightMeterProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightMeter#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingHeightFeetProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingHeightFeet#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingFloorsProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingFloors#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingBuildProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingBuild#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitect#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingArchitectutalStyleProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingArchitectutalStyle#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingCostProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingCost#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingMaterialProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingMaterial#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLongitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLongitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingLatitudeProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingLatitude#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#getBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#buildingImageURLProperty#0;class#BuildingClass#0" expanded="false" />
+            <element signature="method#setBuildingImageURL#0;class#BuildingClass#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BuildingApp/BuildingPresentationModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="method#getApplicationTitle#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#applicationTitleProperty#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#getResults#0;class#BuildingPresentationModel#0" expanded="false" />
+            <element signature="method#getFilteredList#0;class#BuildingPresentationModel#0" expanded="false" />
           </folding>
         </state>
       </provider>

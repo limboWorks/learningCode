@@ -1,5 +1,4 @@
 package BuildingApp;
-
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.charset.StandardCharsets;
@@ -17,38 +16,22 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.transformation.FilteredList;
 
+
 public class BuildingPresentationModel {
+
+	//init values
 	private static final String FILE_NAME = "/buildings.csv";
 	private static final String SEPARATOR = ";";
-
 	private final StringProperty applicationTitle = new SimpleStringProperty("buildings.csv");
+	private final ObservableList<BuildingClass> results = FXCollections.observableArrayList();
+	private final FilteredList<BuildingClass> filteredList = new FilteredList<> (results, results -> true);
 
-	private final ObservableList<BuildingClass> resulates = FXCollections.observableArrayList();
-
-	private final FilteredList<BuildingClass> filteredList = new FilteredList<> (resulates, resulate -> true);
-
+	//constructor
 	public BuildingPresentationModel() {
-		resulates.addAll(readFromFile());
+		results.addAll(readFromFile());
 	}
 
-	/*
-	public void save() {
-		try (BufferedfWriter writer = Files.newBufferedWriter(getPath(FILE_NAME, true))) {
-			writer.write("Gemeinde-Nr.\tBFS Gemeinden\tKanton\tFDP\tCVP\tSPS\tSVP\tLPS\tEVP\tCSP\tGLP\tPdA Sol.\tFGA\tGPS\tSD\tEDU\tFPS\tLega\tÜbrige\tWahlberechtigte\tWählende");
-			writer.newLine();
-			resulate.stream().forEach(resultat -> {
-				try {
-					writer.write(resultat.infoAsLine());
-					writer.newLine();
-				} catch (IOException e) {
-					throw new IllegalStateException(e);
-				}
-			});
-		} catch (IOException e) {
-			throw new IllegalStateException("save failed");
-		}
-	}
-*/
+	//reading buildings.csv
 	private List<BuildingClass> readFromFile() {
 		try (Stream<String> stream = getStreamOfLines(FILE_NAME, true)) {
 			return stream.skip(1)
@@ -56,6 +39,7 @@ public class BuildingPresentationModel {
 			             .collect(Collectors.toList());
 		}
 	}
+
 
 	private Stream<String> getStreamOfLines(String fileName, boolean locatedInSameFolder) {
 		try {
@@ -76,22 +60,18 @@ public class BuildingPresentationModel {
 		}
 	}
 
-
-	// all getters and setters
-
+	//getters and setters
 	public String getApplicationTitle() {
 		return applicationTitle.get();
 	}
-
 	public StringProperty applicationTitleProperty() {
 		return applicationTitle;
 	}
-
-	public ObservableList<BuildingClass> getResulates() {
-		return resulates;
+	public ObservableList<BuildingClass> getResults() {
+		return results;
 	}
-
 	public FilteredList<BuildingClass> getFilteredList() {
 		return filteredList;
 	}
+
 }
